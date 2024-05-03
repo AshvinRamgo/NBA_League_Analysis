@@ -5,14 +5,14 @@ The NBA Overall Team Data from 2000-2023 was pulled as a csv file from: https://
 while the NBA 2023 Player data was pulled as a csv file from https://www.kaggle.com/datasets/bluedreamv1b3/nba-teams-stat-2000-2023/data 
 
 
-Data Cleaning:
+Data Cleaning: <br>
 Using Pandas and NumPy, the Data was cleaned: 
 Taking care of Null Values in the Data Set and also altering some Non-Null Values to my preference, for easier analysis. 
 I also changed some of the names of teams and postions which were previously abbreviated to the full names for visualization.
 Finally, the data was then formatted, unnecessary columns were removed and sorted to my preference.
-(Note each step is explained via comments in the Jupyter Notebook)
+(Note each step is explained via comments in the Jupyter Notebook) <br>
 
-After cleaning: 
+After cleaning: <br>
 The first row of the NBA Overall Team Data  CSV file contains the headers for the file, with each subsequent row providing details: 
 The headers in the file are:
   * Index
